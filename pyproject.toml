@@ -20,6 +20,7 @@ ipython = "^8.28.0"
 pandas = "^2.2.3"
 tavily-python = "^0.5.0"
 wikipedia = "^1.4.0"
+python-dotenv = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
 rich = "^13.9.2"
