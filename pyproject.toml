@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "langchain-academy"
+version = "0.1.0"
+description = ""
+authors = ["Hamid Adesokan <aadehamid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.34"
+langgraph-sdk = "^0.1.32"
+langgraph-checkpoint-sqlite = "^2.0.0"
+langsmith = "^0.1.132"
+langchain-community = "^0.3.1"
+langchain-core = "^0.3.9"
+langchain-openai = "^0.2.2"
+notebook = "^7.2.2"
+jupyter = "^1.1.1"
+ipython = "^8.28.0"
+pandas = "^2.2.3"
+tavily-python = "^0.5.0"
+wikipedia = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+rich = "^13.9.2"
+ruff = "^0.6.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
